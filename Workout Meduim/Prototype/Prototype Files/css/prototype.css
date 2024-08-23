@@ -1,0 +1,44 @@
+.rest-timer {
+    font-size: 10rem;
+    text-align: center;
+    color: hsla(232, 77%, 58%, 1);
+}
+
+.work-warm {
+    display: flex;
+    justify-content: center;
+    
+}
+.work-warm > * {
+    margin-inline: 2rem;
+}
+
+button {
+    background-color: hsla(232, 77%, 50%, 1);
+    border: none;
+    padding-block: .5rem;
+    padding-inline: .75rem;
+    color: hsla(232, 77%, 100%, 1);
+    border-radius: 50%;
+}
+
+.work-warm > button {
+    border-radius: 5px;
+}
+
+.sets {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
+
+.button-group {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.main-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-content: center;
+}
