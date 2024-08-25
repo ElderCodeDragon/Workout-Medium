@@ -1,7 +1,24 @@
+:root {
+    --button-bg: hsla(232, 77%, 50%, 1); /* opaque blue */
+    --button-color: hsla(from var(--button-bg) h s 100% / 1); /* opaque white: derrived from our opaque blue */
+}
+
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+.screen {
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem 3rem auto 8rem;
+    grid-row-gap: 1rem;
+}
+
 .rest-timer {
     font-size: 10rem;
     text-align: center;
-    color: hsla(232, 77%, 58%, 1);
+    color: var(--button-bg);
 }
 
 .work-warm {
@@ -14,11 +31,11 @@
 }
 
 button {
-    background-color: hsla(232, 77%, 50%, 1);
+    background-color: var(--button-bg);
     border: none;
     padding-block: .5rem;
     padding-inline: .75rem;
-    color: hsla(232, 77%, 100%, 1);
+    color: var(--button-color);
     border-radius: 50%;
 }
 
@@ -28,7 +45,17 @@ button {
 
 .sets {
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 6fr 6fr;
+}
+
+.exercise,
+.summary {
+    font-size: 1.25rem;
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    align-self: center;
+    padding-inline: .5rem;
+    padding-block: .75rem;
 }
 
 .button-group {
@@ -36,9 +63,20 @@ button {
     text-align: center;
 }
 
+    .button-group > button:nth-child(4) {
+        color: var(--button-bg);
+        background-color: var(--button-color);
+        border-color: var(--button-bg);
+        border-style: solid;
+        border-width: 2px;
+    }
+
 .main-menu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     align-content: center;
+    border-top-color: var(--button-bg);
+    border-top-style: solid;
+    border-top-width: 1px;
 }
