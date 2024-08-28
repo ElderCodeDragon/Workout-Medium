@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0 0 200 200" >
+	<g class="bars" stroke-width="2" stroke="hsla(232, 77%, 58%, 1)" fill="hsla(232, 77%, 58%, 1)" >
+		<path d="M 50 50
+				l 100 0
+				c 35 0, 35 50, 0 50		
+				l -100 0 
+				c -35 0, -35 -50, 0 -50 z"
+			/>
+		<circle cx="150" cy="75" r="18" stroke="hsla(100, 100%, 100%, 1)" fill="hsla(100, 100%, 100%, 1)" />
+		<path d="M 50 125
+				l 100 0
+				c 35 0, 35 50, 0 50				
+				l -100 0 
+				c -35 0, -35 -50, 0 -50 z" stroke="hsla(100, 100%, 0%, 1)" fill="hsla(100, 20%, 80%, 1)"
+			/>
+		<circle cx="50" cy="149" r="18" stroke-width="4" stroke="hsla(100, 100%, 0%, 1)" fill="hsla(100, 100%, 100%, 1)" />
+		
+	</g>
+</svg>

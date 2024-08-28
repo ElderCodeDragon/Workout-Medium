@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0 0 200 200" >
+	<g class="bars" stroke-width="2" stroke="hsla(232, 77%, 58%, 1)" fill="transparent" transform="translate(10, 0)" >
+		<line x1="25" y1="75" x2="25" y2="175" />
+		<line x1="25" y1="175" x2="175" y2="175" />
+		<line x1="10" y1="100" x2="25" y2="100" />		
+		<line x1="10" y1="125" x2="25" y2="125" />		
+		<line x1="10" y1="150" x2="25" y2="150" />
+		<line x1="62.5" y1="185" x2="62.5" y2="175" />
+		<line x1="99.5" y1="185" x2="99.5" y2="175" />
+		<line x1="137" y1="185" x2="137" y2="175" />
+		<rect x="45" y="130" height="45" width="35" stroke="hsla(116, 70%, 50%, 1)" fill="hsla(116, 70%, 50%, 1)" />
+		<rect x="83" y="80" height="95" width="35"  stroke="hsla(21, 70%, 50%, 1)" fill="hsla(21, 70%, 50%, 1)" />
+		<rect x="123" y="50" height="125" width="35"  stroke="hsla(352, 70%, 50%, 1)" fill="hsla(352, 70%, 50%, 1)" />
+	</g>
+</svg>
