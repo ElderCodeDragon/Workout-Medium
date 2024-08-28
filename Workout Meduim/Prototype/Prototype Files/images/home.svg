@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0 0 200 200" >
+	<g class="home" stroke-width="2" stroke="hsla(232, 77%, 58%, 1)" fill="hsla(232, 77%, 58%, 1)" transform="translate(10, 0)" >
+		<path d="M 50 150
+			l 25 0
+			l 0 -25
+			l 25 0 
+			l 0 25 
+			l 25 0 
+			l 0 -50
+			l -37.5 -20
+			l -37.5 20 z" />
+		<path d="M 40 105
+			l 47.5 -30
+			l 47.5 30" />
+	</g>
+</svg>
