@@ -65,7 +65,11 @@ button {
     text-align: center;
 }
 
-    .button-group > button:nth-child(4) {
+.button-group > * {
+    margin-inline: 2.5px;
+}
+
+    .button-group > .add-set {
         color: var(--button-bg);
         background-color: var(--button-color);
         border-color: var(--button-bg);
