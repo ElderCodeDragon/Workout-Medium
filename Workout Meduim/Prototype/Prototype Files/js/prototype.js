@@ -22,7 +22,7 @@ function WorkOutButtonClicked(event) {
 //        AddSetButtonClicked(obj);
 //}
 
-const addSetButtons = [...document.querySelectorAll(".button-group > .add-set")];
+const addSetButtons =Array.from(document.querySelectorAll(".button-group > .add-set"));
 const completeButtons = [...document.querySelectorAll(".button-group > button:not(.add-set)")];
 
 addSetButtons.forEach(asb => {
@@ -76,7 +76,7 @@ function AddSetButtonClicked(event) {
         let newButton = document.createElement("button");
         newButton.setAttribute("maxReps", max);
         newButton.innerText = max;
-
+        newButton.addEventListener("click", CompleteSetButtonClicked, false);
         buttonGroup.insertBefore(newButton, button);
     } else {
         buttonGroup.removeChild(button);
